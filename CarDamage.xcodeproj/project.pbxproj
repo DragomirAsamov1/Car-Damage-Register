@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0699685788996E964BCED93C /* Pods_CarDamage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36058B105B2CC269026E4BFE /* Pods_CarDamage.framework */; };
+		DA505CB0279AA1EF0021CC6D /* SplatCarRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA505CAF279AA1EF0021CC6D /* SplatCarRecordVC.swift */; };
+		DA505CB4279AA2070021CC6D /* SignatureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA505CB3279AA2070021CC6D /* SignatureVC.swift */; };
+		DA505CB7279AA23E0021CC6D /* RealmConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA505CB6279AA23E0021CC6D /* RealmConfig.swift */; };
+		DA505CBB279AA2790021CC6D /* SplatCarRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA505CBA279AA2790021CC6D /* SplatCarRecord.swift */; };
+		DA5C4C8E2799C80100679BC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C4C8D2799C80100679BC7 /* AppDelegate.swift */; };
+		DA5C4C902799C80100679BC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C4C8F2799C80100679BC7 /* SceneDelegate.swift */; };
+		DA5C4C922799C80100679BC7 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C4C912799C80100679BC7 /* ListVC.swift */; };
+		DA5C4C952799C80100679BC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5C4C932799C80100679BC7 /* Main.storyboard */; };
+		DA5C4C972799C80200679BC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA5C4C962799C80200679BC7 /* Assets.xcassets */; };
+		DA5C4C9A2799C80200679BC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5C4C982799C80200679BC7 /* LaunchScreen.storyboard */; };
+		DA5C4CA5279A03FE00679BC7 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = DA5C4CA4279A03FE00679BC7 /* Realm */; };
+		DA5C4CA7279A03FE00679BC7 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DA5C4CA6279A03FE00679BC7 /* RealmSwift */; };
+		DA7D408827A6A26B008CFBE6 /* RectangularDasedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D408727A6A26B008CFBE6 /* RectangularDasedView.swift */; };
+		DA7D408B27A74694008CFBE6 /* LocalizedDamage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D408A27A74694008CFBE6 /* LocalizedDamage.swift */; };
+		DA80DD0727A5AE42003F771C /* DatePickerPopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80DD0627A5AE42003F771C /* DatePickerPopUpVC.swift */; };
+		DA84D01B27A0580200725CE6 /* PopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA84D01A27A0580200725CE6 /* PopUpVC.swift */; };
+		DA84D02A27A1B0CF00725CE6 /* Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA84D02927A1B0CF00725CE6 /* Signature.swift */; };
+		DAE4B44D279ACBA700B637EF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4B44C279ACBA700B637EF /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36058B105B2CC269026E4BFE /* Pods_CarDamage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarDamage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A679067395A593CB2B6D2C8A /* Pods-CarDamage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarDamage.release.xcconfig"; path = "Target Support Files/Pods-CarDamage/Pods-CarDamage.release.xcconfig"; sourceTree = "<group>"; };
+		DA505CAF279AA1EF0021CC6D /* SplatCarRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplatCarRecordVC.swift; sourceTree = "<group>"; };
+		DA505CB3279AA2070021CC6D /* SignatureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureVC.swift; sourceTree = "<group>"; };
+		DA505CB6279AA23E0021CC6D /* RealmConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConfig.swift; sourceTree = "<group>"; };
+		DA505CBA279AA2790021CC6D /* SplatCarRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplatCarRecord.swift; sourceTree = "<group>"; };
+		DA5C4C8A2799C80100679BC7 /* CarDamage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarDamage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5C4C8D2799C80100679BC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA5C4C8F2799C80100679BC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DA5C4C912799C80100679BC7 /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		DA5C4C942799C80100679BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA5C4C962799C80200679BC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA5C4C992799C80200679BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA5C4C9B2799C80200679BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA7D408727A6A26B008CFBE6 /* RectangularDasedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularDasedView.swift; sourceTree = "<group>"; };
+		DA7D408A27A74694008CFBE6 /* LocalizedDamage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedDamage.swift; sourceTree = "<group>"; };
+		DA80DD0627A5AE42003F771C /* DatePickerPopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerPopUpVC.swift; sourceTree = "<group>"; };
+		DA84D01A27A0580200725CE6 /* PopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpVC.swift; sourceTree = "<group>"; };
+		DA84D02927A1B0CF00725CE6 /* Signature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signature.swift; sourceTree = "<group>"; };
+		DAE4B44C279ACBA700B637EF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F886023F37AA5C775431663B /* Pods-CarDamage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarDamage.debug.xcconfig"; path = "Target Support Files/Pods-CarDamage/Pods-CarDamage.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA5C4C872799C80100679BC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5C4CA7279A03FE00679BC7 /* RealmSwift in Frameworks */,
+				DA5C4CA5279A03FE00679BC7 /* Realm in Frameworks */,
+				0699685788996E964BCED93C /* Pods_CarDamage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		843E34C0088E98315101E388 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F886023F37AA5C775431663B /* Pods-CarDamage.debug.xcconfig */,
+				A679067395A593CB2B6D2C8A /* Pods-CarDamage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DA505CAC279AA15D0021CC6D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DA5C4C912799C80100679BC7 /* ListVC.swift */,
+				DA505CAF279AA1EF0021CC6D /* SplatCarRecordVC.swift */,
+				DA505CB3279AA2070021CC6D /* SignatureVC.swift */,
+				DA84D01A27A0580200725CE6 /* PopUpVC.swift */,
+				DA80DD0627A5AE42003F771C /* DatePickerPopUpVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DA5C4C812799C80100679BC7 = {
+			isa = PBXGroup;
+			children = (
+				DA5C4C8C2799C80100679BC7 /* CarDamage */,
+				DA5C4C8B2799C80100679BC7 /* Products */,
+				843E34C0088E98315101E388 /* Pods */,
+				FCB4669C7BC0CC15E633E100 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA5C4C8B2799C80100679BC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA5C4C8A2799C80100679BC7 /* CarDamage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA5C4C8C2799C80100679BC7 /* CarDamage */ = {
+			isa = PBXGroup;
+			children = (
+				DA5C4C8D2799C80100679BC7 /* AppDelegate.swift */,
+				DA5C4C8F2799C80100679BC7 /* SceneDelegate.swift */,
+				DA505CAC279AA15D0021CC6D /* ViewControllers */,
+				DA5C4C932799C80100679BC7 /* Main.storyboard */,
+				DA505CBA279AA2790021CC6D /* SplatCarRecord.swift */,
+				DA84D02927A1B0CF00725CE6 /* Signature.swift */,
+				DA7D408A27A74694008CFBE6 /* LocalizedDamage.swift */,
+				DA7D408727A6A26B008CFBE6 /* RectangularDasedView.swift */,
+				DAE4B44C279ACBA700B637EF /* Extensions.swift */,
+				DA505CB6279AA23E0021CC6D /* RealmConfig.swift */,
+				DA5C4C962799C80200679BC7 /* Assets.xcassets */,
+				DA5C4C982799C80200679BC7 /* LaunchScreen.storyboard */,
+				DA5C4C9B2799C80200679BC7 /* Info.plist */,
+			);
+			path = CarDamage;
+			sourceTree = "<group>";
+		};
+		FCB4669C7BC0CC15E633E100 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36058B105B2CC269026E4BFE /* Pods_CarDamage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA5C4C892799C80100679BC7 /* CarDamage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA5C4C9E2799C80200679BC7 /* Build configuration list for PBXNativeTarget "CarDamage" */;
+			buildPhases = (
+				18E5347FAE0B148C7F081CB7 /* [CP] Check Pods Manifest.lock */,
+				DA5C4C862799C80100679BC7 /* Sources */,
+				DA5C4C872799C80100679BC7 /* Frameworks */,
+				DA5C4C882799C80100679BC7 /* Resources */,
+				125DA2F562124740A0D6CDF3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarDamage;
+			packageProductDependencies = (
+				DA5C4CA4279A03FE00679BC7 /* Realm */,
+				DA5C4CA6279A03FE00679BC7 /* RealmSwift */,
+			);
+			productName = CarDamage;
+			productReference = DA5C4C8A2799C80100679BC7 /* CarDamage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA5C4C822799C80100679BC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DA5C4C892799C80100679BC7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = DA5C4C852799C80100679BC7 /* Build configuration list for PBXProject "CarDamage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA5C4C812799C80100679BC7;
+			packageReferences = (
+				DA5C4CA3279A03FE00679BC7 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = DA5C4C8B2799C80100679BC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA5C4C892799C80100679BC7 /* CarDamage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA5C4C882799C80100679BC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5C4C9A2799C80200679BC7 /* LaunchScreen.storyboard in Resources */,
+				DA5C4C972799C80200679BC7 /* Assets.xcassets in Resources */,
+				DA5C4C952799C80100679BC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		125DA2F562124740A0D6CDF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarDamage/Pods-CarDamage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarDamage/Pods-CarDamage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarDamage/Pods-CarDamage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18E5347FAE0B148C7F081CB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarDamage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA5C4C862799C80100679BC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA84D01B27A0580200725CE6 /* PopUpVC.swift in Sources */,
+				DA505CBB279AA2790021CC6D /* SplatCarRecord.swift in Sources */,
+				DA7D408B27A74694008CFBE6 /* LocalizedDamage.swift in Sources */,
+				DA5C4C922799C80100679BC7 /* ListVC.swift in Sources */,
+				DA5C4C8E2799C80100679BC7 /* AppDelegate.swift in Sources */,
+				DAE4B44D279ACBA700B637EF /* Extensions.swift in Sources */,
+				DA7D408827A6A26B008CFBE6 /* RectangularDasedView.swift in Sources */,
+				DA80DD0727A5AE42003F771C /* DatePickerPopUpVC.swift in Sources */,
+				DA5C4C902799C80100679BC7 /* SceneDelegate.swift in Sources */,
+				DA505CB0279AA1EF0021CC6D /* SplatCarRecordVC.swift in Sources */,
+				DA505CB4279AA2070021CC6D /* SignatureVC.swift in Sources */,
+				DA84D02A27A1B0CF00725CE6 /* Signature.swift in Sources */,
+				DA505CB7279AA23E0021CC6D /* RealmConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA5C4C932799C80100679BC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA5C4C942799C80100679BC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA5C4C982799C80200679BC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA5C4C992799C80200679BC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA5C4C9C2799C80200679BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA5C4C9D2799C80200679BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA5C4C9F2799C80200679BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F886023F37AA5C775431663B /* Pods-CarDamage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarDamage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edynamix.CarDamage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA5C4CA02799C80200679BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A679067395A593CB2B6D2C8A /* Pods-CarDamage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarDamage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edynamix.CarDamage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA5C4C852799C80100679BC7 /* Build configuration list for PBXProject "CarDamage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA5C4C9C2799C80200679BC7 /* Debug */,
+				DA5C4C9D2799C80200679BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA5C4C9E2799C80200679BC7 /* Build configuration list for PBXNativeTarget "CarDamage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA5C4C9F2799C80200679BC7 /* Debug */,
+				DA5C4CA02799C80200679BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA5C4CA3279A03FE00679BC7 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.21.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA5C4CA4279A03FE00679BC7 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA5C4CA3279A03FE00679BC7 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		DA5C4CA6279A03FE00679BC7 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA5C4CA3279A03FE00679BC7 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DA5C4C822799C80100679BC7 /* Project object */;
+}

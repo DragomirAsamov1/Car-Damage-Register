@@ -1,0 +1,6 @@
+framework module Pods_CarDamage {
+  umbrella header "Pods-CarDamage-umbrella.h"
+
+  export *
+  module * { export * }
+}
